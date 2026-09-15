@@ -2,8 +2,8 @@ from pathlib import Path
 
 import chromadb
 
-from config import CHROMA_DIR, COLLECTION_NAME, TOP_K
-from embeddings import model
+from src.config import CHROMA_DIR, COLLECTION_NAME, TOP_K
+from src.embeddings import model
 
 
 # Persistent ChromaDB client

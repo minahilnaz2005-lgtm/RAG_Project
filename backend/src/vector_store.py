@@ -1,9 +1,9 @@
 import chromadb
 
-from config import CHROMA_DIR, COLLECTION_NAME
-from embeddings import create_embeddings
-from ingestion import load_documents
-from chunking import create_chunks
+from src.config import CHROMA_DIR, COLLECTION_NAME
+from src.embeddings import create_embeddings
+from src.ingestion import load_documents
+from src.chunking import create_chunks
 
 
 # Persistent ChromaDB client

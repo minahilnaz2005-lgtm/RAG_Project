@@ -1,7 +1,7 @@
 import ollama
 
-from retrieval import retrieve_documents
-from config import LLM_MODEL
+from src.retrieval import retrieve_documents
+from src.config import LLM_MODEL
 
 
 def generate_answer(query, retrieved_documents):

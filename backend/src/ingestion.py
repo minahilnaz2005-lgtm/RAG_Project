@@ -2,7 +2,7 @@ from pathlib import Path
 
 from pypdf import PdfReader
 
-from config import DOCUMENTS_DIR
+from src.config import DOCUMENTS_DIR
 
 
 def load_documents():

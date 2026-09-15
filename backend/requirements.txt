@@ -1,6 +1,7 @@
 pypdf
 sentence-transformers
 chromadb
-openai
+ollama
 python-dotenv
-numpy
+fastapi
+uvicorn

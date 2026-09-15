@@ -1,6 +1,6 @@
 from sentence_transformers import SentenceTransformer
 
-from config import EMBEDDING_MODEL
+from src.config import EMBEDDING_MODEL
 
 
 # Embedding model load karo

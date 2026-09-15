@@ -1,4 +1,4 @@
-from config import CHUNK_SIZE, CHUNK_OVERLAP
+from src.config import CHUNK_SIZE, CHUNK_OVERLAP
 
 
 def create_chunks(documents):
